@@ -31,4 +31,14 @@
   (doom-modeline-unicode-fallback t)
   (doom-modeline-enable-word-count nil))
 
+
+;; Enable sort
+(use-package sort-tab
+  :load-path "~/.emacs.d/site-lisp/sort-tab"
+  :config
+  (global-set-key (kbd "s-}") 'sort-tab-select-next-tab)
+  (global-set-key (kbd "s-{") 'sort-tab-select-prev-tab)
+  ) ;; unbind, see more in the Wiki
+
+
 (provide 'init-ui)

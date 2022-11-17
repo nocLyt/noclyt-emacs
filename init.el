@@ -134,7 +134,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(zenburn-theme which-key use-package smex magit lsp-ui lsp-ivy general flycheck expand-region evil doom-modeline counsel-projectile company ccls avy all-the-icons))
+   '(auto-save zenburn-theme which-key use-package smex magit lsp-ui lsp-ivy general flycheck expand-region evil doom-modeline counsel-projectile company ccls avy all-the-icons))
  '(safe-local-variable-values
    '((helm-make-arguments . "-j8")
      (projectile-project-configure-cmd . "cmake -DCMAKE_BUILD_TYPE=Debug -DAL_WITH_TESTS=ON -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..")
@@ -144,8 +144,8 @@
 	   (projectile-compilation-dir)
 	   helm-ctest-dir
 	   (projectile-compilation-dir))))
- '(warning-suppress-log-types '((comp) (comp) (comp) (comp)))
- '(warning-suppress-types '((comp) (comp) (comp))))
+ '(warning-suppress-log-types '((use-package) (use-package) (comp) (comp) (comp)))
+ '(warning-suppress-types '((use-package) (comp) (comp) (comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
