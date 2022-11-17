@@ -9,4 +9,17 @@
 
 (use-package expand-region)
 
+(use-package auto-save
+  ;; Repo: https://github.com/manateelazycat/auto-save
+  ;; Reference: https://manateelazycat.github.io/emacs/2016/03/16/auto-save.html
+
+  :load-path "~/.emacs.d/site-lisp/auto-save"
+  :init
+  (setq auto-save-slient t)
+  :commands
+  (auto-save-enable)
+  )
+
+
+
 (provide 'init-edit-tools)

@@ -1,3 +1,6 @@
 [submodule "site-lisp/sort-tab"]
 	path = site-lisp/sort-tab
 	url = https://github.com/manateelazycat/sort-tab
+[submodule "site-lisp/auto-save"]
+	path = site-lisp/auto-save
+	url = https://github.com/manateelazycat/auto-save

@@ -38,7 +38,7 @@
   :config
   (global-set-key (kbd "s-}") 'sort-tab-select-next-tab)
   (global-set-key (kbd "s-{") 'sort-tab-select-prev-tab)
-  ) ;; unbind, see more in the Wiki
+  )
 
 
 (provide 'init-ui)
